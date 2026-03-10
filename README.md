@@ -19,18 +19,7 @@ avaliação de desempenho
 
 análise da importância das variáveis
 
-📂 Estrutura do Projeto
-telecom-churn-prediction
-│
-├── data
-│   └── df_telecom_tratado.csv
-│
-├── notebooks
-│   └── analise_churn.ipynb
-│
-├── README.md
-│
-└── requirements.txt
+
 📊 Base de Dados
 
 A base de dados utilizada contém informações fictícias de clientes de uma empresa de telecomunicações, incluindo:
