@@ -43,8 +43,11 @@ evasao
 Onde:
 
 0 → Cliente permaneceu
+
 1 → Cliente cancelou o serviço
+
 🔎 Etapas do Projeto
+
 1️⃣ Análise Exploratória dos Dados
 
 Foram realizadas análises para compreender:
@@ -81,6 +84,7 @@ Divisão utilizada:
 
 80% treino
 20% teste
+
 🤖 Modelos de Machine Learning
 
 Foram testados diferentes modelos para prever a evasão de clientes.
@@ -114,42 +118,6 @@ Recall
 F1-score
 
 Essas métricas permitem avaliar não apenas a taxa de acerto do modelo, mas também sua capacidade de identificar corretamente clientes que irão cancelar o serviço.
-
-📊 Comparação dos Modelos
-Modelo	Accuracy	Precision	Recall	F1-score
-Dummy	0.73	0.00	0.00	0.00
-KNN	-	-	-	-
-Árvore de Decisão	-	-	-	-
-
-O modelo Dummy apresentou underfitting, pois não foi capaz de identificar clientes que cancelaram o serviço.
-
-Os modelos de Machine Learning apresentaram desempenho superior, sendo capazes de capturar padrões relevantes nos dados.
-
-🔎 Análise das Variáveis Mais Relevantes
-
-Foi realizada uma análise das variáveis mais importantes para a previsão de evasão utilizando diferentes abordagens:
-
-Regressão Logística
-
-Os coeficientes do modelo foram analisados para identificar quais variáveis aumentam ou reduzem a probabilidade de evasão.
-
-KNN
-
-Como o KNN utiliza distância entre observações, as variáveis mais influentes são aquelas que mais contribuem para diferenciar os clientes no espaço de atributos.
-
-Random Forest
-
-A importância das variáveis foi avaliada com base na contribuição de cada atributo para a redução da impureza nas árvores do modelo.
-
-Essa análise permite identificar fatores importantes relacionados ao churn, como:
-
-tipo de contrato
-
-tempo de relacionamento com a empresa
-
-valor total gasto
-
-método de pagamento
 
 🧠 Conclusões
 
