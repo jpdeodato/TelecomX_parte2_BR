@@ -1,4 +1,5 @@
 📊 Previsão de Evasão de Clientes em Telecomunicações
+
 📌 Descrição do Projeto
 
 Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes de prever a evasão de clientes (churn) em uma empresa fictícia de telecomunicações.
